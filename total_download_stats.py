@@ -4,7 +4,6 @@ import subprocess
 from optparse import OptionParser
 
 from github import *
-from uritemplate import expand
 
 TOKEN=os.environ['GITHUB_TOKEN']
 
